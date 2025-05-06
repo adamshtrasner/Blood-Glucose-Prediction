@@ -45,12 +45,9 @@ Complexities to be aware of:
 
 Submissions are evaluated on Root Mean Square Error (RMSE) between the predicted blood glucose levels an hour into the future and the actual values that were then collected.
 
-RMSE is defined as:
+RMSE is defined as: 
 
-
-<p align="center">
-$\text{RMSE} = \sqrt{\sum^{n}_{i=1}\frac{(\hat{y}_i-y_i)^2}{n}},$
-</p>
+$RMSE = \sqrt{\sum^{n}_{i=1}\frac{(\hat{y}_i-y_i)^2}{n}},$
 
 where $`\hat{y}_i`$ is the ith predicted value, $`y_i`$ is the ith true value and $`n`$ is the number of samples.
 
